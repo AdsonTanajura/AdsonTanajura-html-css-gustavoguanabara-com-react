@@ -2,11 +2,18 @@ import React from "react";
 import { createBrowserRouter } from 'react-router-dom';
 import Home from '../pages/home';
 
+import ExercisePage  from '../components/ExercisePage';
+
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <Home/>,
+    },
+
+    {
+        path: '/exercise/:exerciseName',
+        element: <ExercisePage />
     },
 ]);
 
