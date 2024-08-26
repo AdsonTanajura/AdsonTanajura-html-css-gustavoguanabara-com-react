@@ -1,11 +1,11 @@
 import React, {useEffect} from "react";
 import {Container} from './styles';
 
-import icon from '../../../asset/icone.ico'
+import faviconIcon from '../../../asset/favicon.ico'
 import cssLogo from '../../../asset/CSS3-250px.svg.png';
 import htmlLogo from './HTML-250px.svg.png';
 
-import FaviconChanger from "../../../components/FaviconChanger";
+import FaviconChanger from "../../../components/FaviconChanger/FaviconChanger";
 
 
 
@@ -21,7 +21,7 @@ const Ex003:React.FC = () => {
     return (
 
         <Container>
-            <FaviconChanger iconUrl={icon}/>
+            <FaviconChanger iconUrl={faviconIcon}/>
             <h1>Testando carga e Imagens</h1>
             <p>Abaixo você vai ver uma imagem que está na mesma pasta.</p> 
             <img src={htmlLogo} alt="Imagem que Representa o html" />
