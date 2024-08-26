@@ -19,9 +19,11 @@ const Ex003:React.FC = () => {
         <Container>
             <h1>Testando carga e Imagens</h1>
             <p>Abaixo você vai ver uma imagem que está na mesma pasta.</p> 
-            <img src={htmlLogo} alt="HTML" />
+            <img src={htmlLogo} alt="Imagem que Representa o html" />
             <p>Podemos também carregar imagens que estão em sub-pastas.</p>
-            <img src={cssLogo} alt="Css" />
+            <img src={cssLogo} alt="Imagem que Representa o css" />
+            <p>Também podemos carregar imagens externas.</p>
+            <img src="https://cdn.iconscout.com/icon/free/png-512/free-javascript-3629449-3031512.png?f=avif&w=256" alt="Imagem que Representa o JavaScript"></img>
         </Container>
 
 
