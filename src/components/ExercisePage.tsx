@@ -4,10 +4,13 @@ import { useParams } from 'react-router-dom';
 // Componentes para os exercícios
 import Ex001 from '../pages/exercisePages/exercise001';
 import Ex002 from '../pages/exercisePages/exercise002';
+import Ex003 from '../pages/exercisePages/exercise003';
 
 const exerciseComponents: { [key: string]: React.ComponentType } = {
     ex001: Ex001,
     ex002: Ex002,
+    ex003: Ex003,
+
 };
 
 const ExercisePage:React.FC = () => {
